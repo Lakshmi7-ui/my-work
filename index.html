@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Be My Valentine 💖</title>
+  <style>
+    body {
+      background-color: black;
+      text-align: center;
+      font-family: Arial;
+      margin-top: 300px;
+    }
+    button {
+      padding: 40px 50px;
+      font-size: 30px;
+      margin: 10px;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hey ❤️</h1>
+  <h2>Will you be my Valentine?</h2>
+
+  <button onclick="yes()">YES 😍</button>
+  <button onclick="no()">NO 🙄</button>
+
+  <script>
+    function yes() {
+      document.body.innerHTML =
+        "<h1>YAYYY 💕🥰<br>I LOVE YOU ❤️</h1>";
+    }
+    function no() {
+      alert("bad luck, missed a beautiful girl 😜");
+    }
+  </script>
+
+</body>
+</html>
